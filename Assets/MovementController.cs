@@ -3,7 +3,7 @@ using UnityEngine.Networking;
 
 public class MovementController : NetworkBehaviour
 {
-	public float speed = 2f;
+	public float speed = .5f;
 
 	private void Start()
 	{
@@ -19,15 +19,15 @@ public class MovementController : NetworkBehaviour
 		{
 			transform.position += transform.forward * speed;
 		}
-		else if (Input.GetKey(KeyCode.DownArrow))
+		if (Input.GetKey(KeyCode.DownArrow))
 		{
 			transform.position -= transform.forward * speed;
 		}
-		else if (Input.GetKey(KeyCode.LeftArrow))
+		if (Input.GetKey(KeyCode.LeftArrow))
 		{
 			transform.position -= transform.right * speed;
 		}
-		else if (Input.GetKey(KeyCode.RightArrow))
+		if (Input.GetKey(KeyCode.RightArrow))
 		{
 			transform.position += transform.right * speed;
 		}
