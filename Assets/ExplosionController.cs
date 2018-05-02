@@ -3,18 +3,18 @@ using UnityEngine.Networking;
 
 public class ExplosionController : NetworkBehaviour
 {
-    public GameObject explosionPrefab;
+    public GameObject hugeExplosion;
 
-    // Update is called once per frame
     private void Update()
     {
-        if (!isLocalPlayer)
+        if (!isLocalPlayer) // allow only ourselves to change the color
         {
             return;
         }
 
         if (Input.GetKey(KeyCode.E))
         {
+            // ask the server to render an explosion
             CmdExplode();
         }
     }
@@ -22,14 +22,15 @@ public class ExplosionController : NetworkBehaviour
     [Command]
     private void CmdExplode()
     {
+        // tell the clients to render an explosion
         RpcExplode();
-        
     }
 
     [ClientRpc]
     private void RpcExplode()
     {
-        GameObject instance = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        // KA-BOOM!
+        GameObject instance = Instantiate(hugeExplosion, transform.position, Quaternion.identity);
         Destroy(instance, 2);
     }
 }
