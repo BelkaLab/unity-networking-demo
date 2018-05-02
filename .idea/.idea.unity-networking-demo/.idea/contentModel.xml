@@ -2,16 +2,29 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets" t="Include">
-        <e p="CameraController.cs" t="Include" />
-        <e p="ColorController.cs" t="Include" />
-        <e p="MovementController.cs" t="Include" />
-        <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="JetBrains" t="Include">
-              <e p="Unity3DRider.cs" t="Include" />
+      <e p="Assets/CameraController.cs" t="Include" />
+      <e p="Assets/ColorController.cs" t="Include" />
+      <e p="Assets/DontDestroyOnLoad.cs" t="Include" />
+      <e p="Assets/ExplosionController.cs" t="Include" />
+      <e p="Assets/MovementController.cs" t="Include" />
+      <e p="Assets/Plugins" t="Include">
+        <e p="Unity Particle Pack" t="Include">
+          <e p="EffectExamples" t="Include">
+            <e p="Shared" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="DecalDestroyer.cs" t="Include" />
+                <e p="ExtinguishableFire.cs" t="Include" />
+                <e p="GunAim.cs" t="Include" />
+                <e p="GunShoot.cs" t="Include" />
+                <e p="ParticleCollision.cs" t="Include" />
+                <e p="ParticleExamples.cs" t="Include" />
+                <e p="ParticleMenu.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="SurfaceShader_VC.shader" t="Include" />
+              </e>
             </e>
           </e>
         </e>
@@ -24,6 +37,6 @@
       </e>
       <e p="unity-networking-demo.sln" t="IncludeFlat" />
     </e>
-    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_unity-networking-demo.646324350.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_unity-networking-demo.-1404178735.00" t="ExcludeRecursive" />
   </component>
 </project>
