@@ -3,7 +3,9 @@ using UnityEngine.Networking;
 
 public class ColorController : NetworkBehaviour
 {
-    [SyncVar] private Color color = Color.white;
+    [SyncVar]
+    private Color color = Color.white;
+    
     private new Renderer renderer;
 
     private void Awake()
