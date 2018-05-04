@@ -6,7 +6,6 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets/CameraController.cs" t="Include" />
       <e p="Assets/ColorController.cs" t="Include" />
-      <e p="Assets/DontDestroyOnLoad.cs" t="Include" />
       <e p="Assets/ExplosionController.cs" t="Include" />
       <e p="Assets/MovementController.cs" t="Include" />
       <e p="Assets/Plugins" t="Include">
