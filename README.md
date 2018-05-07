@@ -17,7 +17,7 @@ https://www.slideshare.net/JohnFrigo/moving-pixels-on-someone-elses-screen-intro
 ## Contributors
 
 - [Massimo Frasson](https://github.com/MaxFrax)
-- [Giovanni Frigo](https://github.com/JohnFrigo)
+- [Giovanni Frigo](https://github.com/GiovanniFrigo)
 
 ## Built with
 
